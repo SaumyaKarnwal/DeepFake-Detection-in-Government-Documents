@@ -24,19 +24,6 @@ We use Circularly Shifted Local Binary Patterns (CS LBP) in conjunction with a s
 
 The extracted features are then used to train a CNN model consisting of 3 convolutional layers and 1 fully connected layer. Each convolutional block is followed by max pooling and batch normalization to improve the model's performance. The output of the model is binary, indicating whether the image is real (1) or fake (0).
 
-## System Configurations
-
-To execute this implementation, the following system configurations are needed:
-
-- Python 3.x
-- TensorFlow
-- OpenCV
-- YOLOv8
-- scikit-image
-- numpy
-- matplotlib
-- other required libraries (mentioned in requirements.txt)
-
 ## References
 
 1. Le, T.-N., Nguyen, H. H., Yamagishi, J., & Echizen, I. (2021). OpenForensics: Multi-Face Forgery Detection And Segmentation In-The-Wild Dataset [V.1.0.0] (1.0.0) [Data set]. International Conference on Computer Vision (ICCV). Zenodo. https://doi.org/10.5281/zenodo.5528418
